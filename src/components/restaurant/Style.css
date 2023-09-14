@@ -1,11 +1,14 @@
 .App {
   /* text-align: center; */
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
-body{
-  background-color:#eaeded;;
+
+body {
+  background-color: #eaeded;
+  ;
 }
-header{
+
+header {
   width: 1500px;
   text-align: center;
   margin-left: 200px;
@@ -17,14 +20,16 @@ header{
   /* padding-bottom: 1px; */
   background-color: #fcebb6;
 }
-.left{
+
+.left {
   width: 400px;
   margin: 20px 100px 0 200px;
   border: 1px solid black;
   background-color: #fcebb6;
   display: inline-block;
 }
-.right{
+
+.right {
   width: 1000px;
   margin-top: 40px;
   vertical-align: top;
@@ -32,63 +37,88 @@ header{
   /* border: 1px solid black; */
   /* background-color:aliceblue; */
 }
-.left h1{
+
+.left h1 {
   /* margin-left: 40px; */
   padding: 3px;
   text-align: center;
   background-color: #ecbd33;
 }
-h2{
+
+h2 {
   padding: 10px;
   /* font-size: 1.5rem; */
   background-color: #fcebb6;
   border: 1px solid black;
 }
-h3{
-  color:crimson
+
+h3 {
+  color: crimson
 }
-a{
+
+h4 {
+  padding-right: 10px;
+  text-align: right;
+  color: cadetblue
+}
+
+a {
   font-size: 1.5rem;
   color: black;
 }
-a:link{
+
+a:link {
   text-decoration: none;
 }
-a:hover{
+
+a:hover {
   border: 1px solid black;
-  background-color:goldenrod
+  background-color: goldenrod
 }
-a:visited{
+
+a:visited {
   color: black;
 }
-table,tr,th,td{
+
+table,
+tr,
+th,
+td {
   border: 1px solid black;
   border-collapse: collapse;
   font-size: 1.5rem;
   padding: 5px 10px;
 }
-table{
+
+table {
   width: 1000px;
 }
-th{
+
+th {
   text-align: left;
 }
-.name{
+
+.name {
   width: 250px;
 }
-.desc{
+
+.desc {
   width: 550px;
 }
-.price{
+
+.price {
   width: 200px;
-  padding-left:40px;
+  padding-left: 40px;
 }
-.fs{
+
+.fs {
   font-size: 16px;
 }
-tr:nth-child(2n+2){
-background-color:lightgray ;
+
+tr:nth-child(2n+2) {
+  background-color: lightgray;
 }
-ul{
-  list-style-type:none;
+
+ul {
+  list-style-type: none;
 }

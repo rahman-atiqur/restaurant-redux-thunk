@@ -26,6 +26,7 @@ class MenuCategories extends Component {
                         </li>
                     ))}
                 </ul>
+                <h4> Click on any menu to start</h4>
             </div>
         );
     }
